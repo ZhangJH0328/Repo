@@ -1,2 +1,6 @@
-# USART串口调试
-**效果：** 在串口调试工具上，输入11，表示使LED亮的指令；输入12，表示使LED灭的指令；输入其他视为错误指令。所有指令发送后都会有一条反馈语句
+# Task:
+## The program mainly implemented functions on the serial port asistant as follows:
+1. Enter 11 to indicate the instruction to turn the LED on;
+2. Enter 12 to indicate the instruction to turn the LED off;
+3. Any other instruction will be seen as false instruction;
+4. All instructions are sent with a feedback statement.
